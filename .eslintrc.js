@@ -37,19 +37,6 @@ module.exports = {
     // { aaa: aaa }を{ aaa }に強制
     'object-shorthand': ['warn', 'always'],
     complexity: ['warn', 10],
-    '@typescript-eslint/naming-convention': [
-      'error',
-      {
-        // classやtypeなどは頭大文字
-        selector: 'typeLike',
-        format: ['PascalCase'],
-      },
-      {
-        // 変数名はキャメルケース
-        selector: 'variable',
-        format: ['camelCase'],
-      },
-    ],
   },
   overrides: [
     {
