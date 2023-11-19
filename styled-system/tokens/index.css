@@ -404,20 +404,20 @@
   --sizes-min: min-content;
   --sizes-max: max-content;
   --sizes-fit: fit-content;
-  --sizes-breakpoint-sm: 640px;
-  --sizes-breakpoint-md: 768px;
-  --sizes-breakpoint-lg: 1024px;
-  --sizes-breakpoint-xl: 1280px;
   --sizes-breakpoint-2xl: 1536px;
+  --sizes-breakpoint-sm: 576px;
+  --sizes-breakpoint-md: 768px;
+  --sizes-breakpoint-lg: 992px;
+  --sizes-breakpoint-xl: 1110px;
   --animations-spin: spin 1s linear infinite;
   --animations-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
   --animations-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   --animations-bounce: bounce 1s infinite;
-  --breakpoints-sm: 640px;
+  --breakpoints-2xl: 1536px;
+  --breakpoints-sm: 576px;
   --breakpoints-md: 768px;
-  --breakpoints-lg: 1024px;
-  --breakpoints-xl: 1280px;
-  --breakpoints-2xl: 1536px
+  --breakpoints-lg: 992px;
+  --breakpoints-xl: 1110px
 }
   }
   
