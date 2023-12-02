@@ -1,4 +1,12 @@
 {
-  "title": "ホームページ",
-  "to-about-page": "アバウトページへ"
+  "login": {
+    "title": "ログイン方法を選択",
+    "buttonText": "でログイン"
+  },
+  "header": {
+    "button": {
+      "createCart": "カート作成",
+      "login": "ログイン"
+    }
+  }
 }
