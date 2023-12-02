@@ -19,15 +19,9 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/((?!_next).*)'],
+  matcher: ['/((?![^/.]).*)'],
 };
 
 const getLanguage = (str: string) => {
-  var elements = str.split(',');
-
-  if (elements[0] === 'ja') {
-    return 'ja';
-  } else {
-    return 'en';
-  }
+  return str.startsWith('ja') ? 'ja' : 'en';
 };

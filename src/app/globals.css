@@ -1,1 +1,16 @@
 @layer reset, base, tokens, recipes, utilities;
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  padding-bottom: 92px;
+  box-sizing: border-box;
+  background-color: #f7f9fa;
+}
+
+#__next {
+  min-height: 100%;
+}

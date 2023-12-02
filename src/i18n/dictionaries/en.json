@@ -1,4 +1,12 @@
 {
-  "title": "HomePage",
-  "to-about-page": "To about page"
+  "login": {
+    "title": "Choose a Login Method",
+    "buttonText": "Sign in with"
+  },
+  "header": {
+    "button": {
+      "createCart": "Create Cart",
+      "login": "Login"
+    }
+  }
 }
