@@ -7,6 +7,11 @@
     "button": {
       "createCart": "Create Cart",
       "login": "Login"
+    },
+    "menu": {
+      "resolvedCart": "Resolved Cart",
+      "editProfile": "Edit Profile",
+      "logout": "Logout"
     }
   }
 }

@@ -7,6 +7,11 @@
     "button": {
       "createCart": "カート作成",
       "login": "ログイン"
+    },
+    "menu": {
+      "resolvedCart": "解決したカート",
+      "editProfile": "プロフィール編集",
+      "logout": "ログアウト"
     }
   }
 }
