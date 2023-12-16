@@ -1,4 +1,5 @@
 import 'src/app/globals.css';
+import '@mantine/core/styles.css';
 
 import { ColorSchemeScript } from '@mantine/core';
 
