@@ -4,6 +4,7 @@ import {
   IconBell,
   IconBrandGithub,
   IconBrandX,
+  IconBulb,
   IconCheck,
   IconChevronsRight,
   IconEdit,
@@ -41,7 +42,7 @@ export const CustomIcon = ({
   return <DynamicIcon size={sizeMap.get(size)} color={customColor} />;
 };
 
-type AllowedIconName =
+export type AllowedIconName =
   | 'IconArrowDown'
   | 'IconArrowRight'
   | 'IconCheck'
@@ -56,7 +57,8 @@ type AllowedIconName =
   | 'IconUser'
   | 'IconBell'
   | 'IconBrandX'
-  | 'IconBrandGithub';
+  | 'IconBrandGithub'
+  | 'IconBulb';
 
 const IconMap = new Map<
   AllowedIconName,
@@ -78,4 +80,5 @@ const IconMap = new Map<
   ['IconBell', IconBell],
   ['IconBrandX', IconBrandX],
   ['IconBrandGithub', IconBrandGithub],
+  ['IconBulb', IconBulb],
 ]);

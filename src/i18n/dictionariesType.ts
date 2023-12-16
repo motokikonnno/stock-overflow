@@ -8,5 +8,10 @@ export type DictionariesType = {
       createCart: string;
       login: string;
     };
+    menu: {
+      resolvedCart: string;
+      editProfile: string;
+      logout: string;
+    };
   };
 };
