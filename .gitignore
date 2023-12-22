@@ -37,3 +37,6 @@ next-env.d.ts
 
 # lib
 styled-system
+
+# lock file
+pnpm-lock.yaml
