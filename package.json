@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "preinstall": "npx only-allow pnpm && npm i -g pnpm",
+    "preinstall": "npx only-allow pnpm",
     "prepare": "panda codegen",
     "dev": "rm -rf .next && next dev",
     "build": "next build",
