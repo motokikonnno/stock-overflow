@@ -16,7 +16,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Run ESLint
-        run: yarn lint
+        run: pnpm lint
